@@ -1,0 +1,65 @@
+// 示例数据结构（首次启动由 server/store.cjs 自动生成；此处仅供参考，真实数据请勿上传公开仓库）
+{
+  "settings": {
+    "semesterStart": "2026-09-07",
+    "dayStart": "07:00",
+    "dayEnd": "23:00",
+    "napStart": "12:50",
+    "napEnd": "13:40",
+    "dailyCapacityMin": 480,
+    "blockMaxMin": 90,
+    "minGapMin": 60,
+    "taskStart": "08:00",
+    "autoRegenerate": true
+  },
+  "courses": [
+    {
+      "id": "crs_example1",
+      "name": "高等数学",
+      "teacher": "示例教师",
+      "location": "1号教学楼(101)",
+      "dow": 1,
+      "start": "08:00",
+      "end": "09:40",
+      "weeks": [1, 16],
+      "color": "#5b8def"
+    },
+    {
+      "id": "crs_example2",
+      "name": "大学英语（单周）",
+      "dow": 3,
+      "start": "10:10",
+      "end": "11:50",
+      "weeks": [1, 17],
+      "weekKind": "odd",
+      "color": "#3aa17e"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_example1",
+      "title": "四级｜听力精听｜每天60分钟",
+      "type": "cert",
+      "deadline": "2026-12-11",
+      "startDate": "2026-10-01",
+      "estimatedMin": 2400,
+      "priority": 1,
+      "status": "todo",
+      "progress": 0,
+      "splittable": true,
+      "pref": "evening"
+    }
+  ],
+  "blocks": [],
+  "events": [
+    { "id": "evt_example1", "date": "2026-10-10", "type": "adjust", "name": "调休：上10月6日的课", "copyDate": "2026-10-06" }
+  ],
+  "exams": [],
+  "goals": [],
+  "holidays": [
+    { "date": "2026-10-01", "name": "国庆节" },
+    { "date": "2026-10-02", "name": "国庆节" },
+    { "date": "2026-10-03", "name": "国庆节" }
+  ],
+  "focusSessions": []
+}
